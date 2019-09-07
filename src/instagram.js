@@ -36,7 +36,6 @@ const instagram = {
   end: async () => {
     await instagram.page.close();
   },
-
   likeTagsProcess: async (tags = []) => {
     for (let tag of tags) {
 
